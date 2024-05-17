@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "tevin",
+      "author": "typicode",
+      "password": 1234,
+      "email": "tevin@test.com"
+    },
+    {
+      "id": "2",
+      "name": "Malory",
+      "author": "other",
+      "password": 1234567
+    },
+    {
+      "id": "2",
+      "name": "malory",
+      "author": "otter",
+      "password": 123456
+    },
+    {
+      "id": "2",
+      "name": "malory",
+      "author": "otter",
+      "password": 123456
+    },
+    {
+      "id": "2",
+      "name": "malory",
+      "author": "otter",
+      "password": 123456
+    },
+    {
+      "id": "3",
+      "name": "lifestyle",
+      "author": "typicode2",
+      "password": 123456789
+    },
+    {
+      "id": "3",
+      "name": "lifestyle",
+      "author": "typicode2",
+      "password": 123456789
+    },
+    {
+      "id": "3",
+      "name": "lifestyle",
+      "author": "typicode2",
+      "password": 123456789
+    },
+    {
+      "id": "7be8"
+    },
+    {
+      "id": "a819"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "restaurant": [
+    {
+      "id": "1",
+      "name": "McDonalds",
+      "location": "California",
+      "contact": "123-456-7890",
+      "address": "1234 Main St"
+    },
+    {
+      "id": "2",
+      "name": "Chic-fila",
+      "location": "San Diego",
+      "contact": "123-456-7891",
+      "address": "1234 Main ct"
+    },
+    {
+      "id": "1",
+      "name": "BurgerKing",
+      "location": "Texas",
+      "contact": "555-5555",
+      "address": "24 dun Rd"
+    },
+    {
+      "id": "c0bb",
+      "name": "Chillies",
+      "contact": "11111",
+      "address": " 27 eagle run st "
+    }
+  ]
+}
