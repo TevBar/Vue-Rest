@@ -10,6 +10,7 @@
 </template>
 <script>
 import HeaderTop from './HeaderTop.vue';
+import axios from 'axios';
 export default{
     name: 'AddRest',
     components: {
@@ -26,9 +27,15 @@ export default{
         }
     },
     methods: {
-        addRestaurant()
+       async addRestaurant()
         {
             console.warn(this.restaurant);
+            const result = await axios.post("http://localhost:3001/restaurant",{
+                name:this.restaurant.name,
+                address:this.restaurant.address,
+                contact:this.restaurant.contact,
+            });
+            console.warn("result",result);
         }
     },
     mounted()

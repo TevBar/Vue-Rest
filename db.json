@@ -100,6 +100,12 @@
       "name": "Chillies",
       "contact": "11111",
       "address": " 27 eagle run st "
+    },
+    {
+      "id": "b1bc",
+      "name": "RCB restaurant",
+      "address": " barrios, tevin",
+      "contact": "123456"
     }
   ]
 }
